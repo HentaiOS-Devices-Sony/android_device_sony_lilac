@@ -25,9 +25,9 @@ This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** a
 <manifest>
     <!-- SONY -->
     <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
-    <project name="cryptomilk/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="lineage-17.1" />
+    <project name="shank03/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="havoc-10" />
     <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="lineage-17.1" />
-    <project name="shank03/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="android-10" />
+    <project name="shank03/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="havoc-10" />
 
     <!-- Pinned blobs for lilac -->
     <project name="cryptomilk/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="lineage-17.1" />
