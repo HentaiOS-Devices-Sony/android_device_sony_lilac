@@ -4,7 +4,7 @@
     "target_path": "kernel/sony/msm8998"
   },
   {
-    "repository": "cryptomilk/android_device_sony_common-treble",
+    "repository": "shank03/android_device_sony_common-treble",
     "target_path": "device/sony/common-treble"
   },
   {
