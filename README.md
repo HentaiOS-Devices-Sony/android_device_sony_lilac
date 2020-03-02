@@ -54,7 +54,7 @@ Then:
 ```
 - Start Building
 ```
-    make -j&(nrpoc)
+    make -j&(nproc)
 ```
 
-**Happpy Building ! :)** 
+**Happy Building ! :)** 
