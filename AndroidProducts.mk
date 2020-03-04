@@ -16,3 +16,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_lilac.mk
+COMMON_LUNCH_CHOICES += \
+    havoc_lilac-userdebug \
+    havoc_lilac-eng 
