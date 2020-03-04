@@ -35,7 +35,7 @@ This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** a
 ```
 - Sync the Repo
 ```
-repo sync -c -j$(nproc --all) --no-clone-bundle
+repo sync
 ```
 - Extract vendor blobs
 
