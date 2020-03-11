@@ -1,4 +1,7 @@
 # Device Tree for Xperia XZ1 Compact(Lilac, G8441)
+
+## [ Under Developement ]
+
 ## Description
 This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** and is modified for Havoc OS
 
@@ -31,7 +34,7 @@ This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** a
 
     <!-- Pinned blobs for lilac -->
     <project name="cryptomilk/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="lineage-17.1" />
-</manifest>
+</manifest> 
 ```
 - Sync the Repo
 ```
