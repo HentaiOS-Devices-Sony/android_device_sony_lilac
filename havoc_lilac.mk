@@ -15,6 +15,13 @@ TARGET_SCREEN_WIDTH := 720
 # vendor/havoc/config/common.mk
 TARGET_BOOTANIMATION_HALF_RES := true
 
+#GAPPS
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_PIXEL_WALLPAPER := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 ### HAVOC
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
