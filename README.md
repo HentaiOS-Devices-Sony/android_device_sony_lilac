@@ -1,17 +1,22 @@
 # Device Tree for Xperia XZ1 Compact(Lilac, G8441)
 
+# [UNDER DEVELOPEMENT]
+
 ## Description
 This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** and is modified for Havoc OS
 
-## Making Havoc OS
-- Create folder for Havoc
+## Making Pixel Experience/Plus
+- Create folder for PE
 ```
-    mkdir havoc-10
-    cd havoc-10
+    mkdir pe-10
+    cd pe-10
 ```
 - Initialize Repo
 ```
-    repo init -u https://github.com/Havoc-OS/android_manifest.git -b ten
+    # For normal
+    repo init -u https://github.com/PixelExperience/manifest -b ten
+    # For plus
+    repo init -u https://github.com/PixelExperience/manifest -b ten-plus
 ```
 - Create a manifest for Lilac
 ```
@@ -26,9 +31,9 @@ This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** a
 <manifest>
     <!-- SONY -->
     <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
-    <project name="shank03/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="havoc-10" />
+    <project name="shank03/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="pe-10" />
     <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="lineage-17.1" />
-    <project name="shank03/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="havoc-10" />
+    <project name="cryptomilk/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="lineage-17.1" />
 
     <!-- Pinned blobs for lilac -->
     <project name="cryptomilk/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="lineage-17.1" />
@@ -36,7 +41,7 @@ This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** a
 ```
 - Sync the Repo
 ```
-repo sync
+repo sync -c -j6 --no-clone-bundle -no-tags
 ```
 - Extract vendor blobs
 
@@ -51,7 +56,7 @@ Then:
 - Setup the environment
 ```
     . build/envsetup.sh
-    lunch havoc_lilac-userdebug
+    lunch aosp_lilac-userdebug
 ```
 - Start Building
 ```
