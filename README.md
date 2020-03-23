@@ -1,7 +1,7 @@
 # Device Tree for Xperia XZ1 Compact(Lilac, G8441)
 
 ## Description
-This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** and is modified for Havoc OS
+This repository is pulled/forked from **cryptomilk/android_device_sony_lilac** and is modified for Pixel Experience / Plus
 
 ## Making Pixel Experience/Plus
 - Create folder for PE
